@@ -1,6 +1,6 @@
-<div class="col-md-8">
+<div class="col-6 ">
     <h3>Edit property: <?= $advertisement->getTitle() ?></h3><br>
-    <form action="/property/advertisement/<?= $advertisement->getId() ?>/update" method="post">
+    <form class="card bg-light mb-3 rounded mx-auto d-block" action="/property/advertisement/<?= $advertisement->getId() ?>/update" method="post">
         <table class="table">
             <thead clss="thead-dark">
             <tr>

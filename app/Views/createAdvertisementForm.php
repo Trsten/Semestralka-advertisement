@@ -1,5 +1,6 @@
 <div class="col-6">
-    <form method="post" action="/property/advertisement/createAdvertisement">
+    <br>
+    <form class="col-12 card bg-light mb-3 rounded mx-auto d-block" method="post" action="/property/advertisement/createAdvertisement">
         <h2>Create new advertisement</h2>
         <div class="form-group">
             <label for="title">Title</label>
@@ -39,5 +40,6 @@
         </div>
         <input type="submit" class="btn btn-info" name="createAdvertisement" value="create">
         <a href="/property/advertisement/show" class="btn btn-info" role="button">cancel</a>
+        <br><br>
     </form>
 </div>

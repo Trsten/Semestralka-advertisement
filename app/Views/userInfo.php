@@ -43,12 +43,6 @@
         <input type="submit" class="btn btn-info" name="editUser" value="save">
         <input type="submit" class="btn btn-info" name="editUser" value="cancel">
     </form>
-
     <br>
-    <form id="foo">
-        <label for="bar">A bar</label>
-        <input id="bar" name="bar" type="text" value="" />
-        <input type="submit" value="Send" />
-    </form>
 </div>
 <br>
