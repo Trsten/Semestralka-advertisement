@@ -40,9 +40,9 @@
 <div><?php include($sectionView) ?></div>
 <br>
 </body>
-
+<br>
 <footer>
-    <div class="p-3 mb-2 bg-info text-white  ">&COPY; 2019 by Trsten developers</div>
+    <div class="p-3 mb-0 bg-info text-white navbar fixed-bottom">&COPY; 2019 by Trsten developers</div>
 </footer>
 
 </html>
