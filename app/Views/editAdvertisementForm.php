@@ -1,6 +1,6 @@
-<div class="col-6 ">
-    <h3>Edit property: <?= $advertisement->getTitle() ?></h3><br>
-    <form class="card bg-light mb-3 rounded mx-auto d-block" action="/property/advertisement/<?= $advertisement->getId() ?>/update" method="post">
+<div class="form-group text-left w-50 p-3 col-6 card bg-light mb-3 rounded mx-auto d-block  ">
+    <h3 class="text-center">Edit property: <?= $advertisement->getTitle() ?></h3><br>
+    <form action="/property/advertisement/<?= $advertisement->getId() ?>/update" method="post">
         <table class="table">
             <thead clss="thead-dark">
             <tr>

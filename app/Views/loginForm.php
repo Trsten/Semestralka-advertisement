@@ -1,5 +1,6 @@
 <br>
-<div class="col-6 card bg-light mb-3 rounded mx-auto d-block">
+<div class="col-4 card bg-light mb-3 rounded mx-auto d-block">
+    <h1 class="text-center">Login</h1>
     <br>
     <form method="POST" action="/property/home/loginUser">
         <div class="form-group">

@@ -1,5 +1,7 @@
 <br>
 <div class="col-8 card bg-light mb-6 rounded mx-auto d-block">
+    <h1 class="text-center">Edit <?php echo $user->getUsername(); ?> </h1>
+    <br>
     <form action="/property/user/edit" method="post">
     <table class="table">
         <thead clss="thead-dark">

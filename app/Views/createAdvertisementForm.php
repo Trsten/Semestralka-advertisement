@@ -1,6 +1,5 @@
-<div class="col-6">
     <br>
-    <form class="col-12 card bg-light mb-3 rounded mx-auto d-block" method="post" action="/property/advertisement/createAdvertisement">
+    <form class="form-group text-left w-50 p-3 col-6 card bg-light mb-3 rounded mx-auto d-block " method="post" action="/property/advertisement/createAdvertisement">
         <h2>Create new advertisement</h2>
         <div class="form-group">
             <label for="title">Title</label>
@@ -42,4 +41,3 @@
         <a href="/property/advertisement/show" class="btn btn-info" role="button">cancel</a>
         <br><br>
     </form>
-</div>

@@ -36,7 +36,8 @@
     </div>
 
 </header>
-<div class="container"><?php include($sectionView) ?></div>
+
+<div><?php include($sectionView) ?></div>
 <br>
 </body>
 
