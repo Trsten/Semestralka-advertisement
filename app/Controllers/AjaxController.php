@@ -30,7 +30,7 @@ class AjaxController
             $comment->add();
 
             echo json_encode([
-                'username' => $user->getUsername(),
+                'username' => $user->getFullName(),
                 'comment' => $comment->getComment(),
                 'time' => $comment->getTime()
             ]);

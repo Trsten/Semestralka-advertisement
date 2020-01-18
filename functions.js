@@ -18,10 +18,10 @@ $(document).ready(function(){
                 const jsonData = JSON.parse(data);
 
                 $('#comments').append(
-                    '<div class="card col-md-9 my-2">' +
+                    '<div class="card col-md-12 my-2">' +
                     '<div>' + jsonData['username'] + '</div>' +
                     '<div>' + jsonData['comment'] + '</div>' +
-                    '<small>' + jsonData['time'] + '</small>' +
+                    '<small>' + jsonData['time'] + '</small>' + '<br>' +
                     '</div>'
                 );
                 $('#comment').val('');

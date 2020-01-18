@@ -80,7 +80,7 @@
 <br>
 <?php if (isset($_SESSION['loggedUser']) && $_SESSION['loggedUser'] == 'admin') {
     foreach($comments as $comment): ?>
-        <div class="form-group">
+        <div class="form-group text-left w-50 p-3 col-6 card bg-light mb-3 rounded mx-auto d-block">
             <div><?= $comment->getFull_name()?></div>
             <div><?= $comment->getTime()?></div>
             <text><?= $comment->getComment()?></text><br><br>

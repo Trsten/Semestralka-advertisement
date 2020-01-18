@@ -13,18 +13,18 @@
     <br>
 </div>
 
-
 <div class="form-group text-left w-50 p-3 col-6 card bg-light mb-3 rounded mx-auto d-block">
     <h2 class="text-left">Comments</h2>
+
+    <div id="comments">
     <?php foreach($comments as $comment): ?>
-        <div id="comments">
             <div class="card col-md-12 my-2">
-                <div><?= $advertisement->getUsername()?></div>
+                <div><?= $comment->getFull_name()?></div>
                 <div><?= $comment->getComment()?></div>
                 <small><?= $comment->getTime()?></small><br>
             </div>
-        </div>
     <?php endforeach; ?>
+    </div>
 
     <?php if (empty($_SESSION['loggedUser'])) { ?>
         <span>if you want add comment first you have to registry or login.</span>
@@ -33,7 +33,7 @@
             <input type="hidden" id="advertisementId" value="<?= $advertisement->getId() ?>">
             <input type="hidden" id="loggedUser" value="<?php echo $_SESSION['loggedUser'] ?>">
             <label for="comment"></label>
-            <textarea  id="comment" cols="93" rows="3" name="comment" placeholder="write comment"></textarea><br>
+            <textarea  id="comment" cols="93" rows="3" name="comment" placeholder="write comment"></textarea>
             <input required id="addComment" type="submit" class="btn btn-info" name="addComment" value="addComment">
         </form>
     <?php }?>
